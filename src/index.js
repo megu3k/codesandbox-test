@@ -20,8 +20,8 @@
 
 // // letは再宣言不可
 
-const val3 = "const変数";
-console.log(val3);
+// const val3 = "const変数";
+// console.log(val3);
 
 //　const変数は上書き不可能
 
@@ -34,7 +34,22 @@ console.log(val3);
 // val4.addres ="yokohama";
 // console.log(val4);
 
-const val5 = ["dog", "cat"];
-val5[0] = "bird";
-val5.push("monkey");
-console.log(val5);
+// const val5 = ["dog", "cat"];
+// val5[0] = "bird";
+// val5.push("monkey");
+// console.log(val5);
+
+/**
+ * テンプレート文字列
+ */
+//const name = "meg";
+//const age = 20;
+//　私の名前は○○です。年齢は○歳です。
+
+// 従来の方法
+//const message1 = "私の名前は" + name + "です。年齢は" + age + "です。";
+//console.log(message1);
+
+//　テンプレート文字列を用いた方法
+//const message2 = `私の名前は${name}です。年齢は${age}です。`;
+//console.log(message2);
