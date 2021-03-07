@@ -144,7 +144,7 @@
 /**
  * mapやfilterを使った配列の処理
  */
-const nameArr = ["田中", "山田", "meg"];
+//const nameArr = ["田中", "山田", "meg"];
 // for (let index = 0; index < nameArr.length; index++){
 //   console.log(`${index + 1}番目は${nameArr[index]}です`);
 // }
@@ -170,3 +170,22 @@ const nameArr = ["田中", "山田", "meg"];
 //   }
 // })
 // console.log(newNameArr);
+
+/**
+ * 三項演算子
+ */
+// ある条件 ? 条件がtrueの時：条件がfolseの時
+// const val1 = 1 < 0 ? 'trueです' : 'folseです';
+// console.log(val1);
+
+// const num = "1300";
+// //console.log(num.toLocaleString());
+
+// const formattedNum =
+//   typeof num === "number" ? num.toLocaleString() : "数値を入れてください";
+// console.log(formattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? '100を超えています！' : '許容範囲内です';
+// }
+// console.log(checkSum(50, 40));
